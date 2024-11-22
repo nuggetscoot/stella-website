@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'Loveness';
+    src: url('./fonts/Loveness-jmO7.ttf') format('truetype'); 
+    font-style: normal;
+}
+h1{
+    text-align: center;
+    font-family: "Loveness", "serif";
+    font-size: 100px;    
+    background-color: #FFD1DC;
+    padding-top: 20px;
+    color: #5c2233;
+}
+h2-container {
+    display: flex;
+    justify-content: space-between; /* Distributes even spacing */
+    align-items: center; /* Aligns items vertically if needed */
+    text-align: center; /* Ensures the text inside h2 is centered */
+    margin: 0 auto; /* Centers the entire container */
+}
+
+h2 {
+    margin: 0; /* Removes default margins */
+    padding: 0; /* Removes extra padding */
+}
+
+/* h2{
+    display: inline-block;
+    justify-content: space-between;
+} */
+#contact {
+    float: right;
+    margin-right: 50px;
+}
+
+#shop {
+    float: left;
+    margin-left: 50px;
+}
+
+
+
+
+
