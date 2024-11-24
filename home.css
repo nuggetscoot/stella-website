@@ -10,26 +10,7 @@ h1{
     background-color: #FFD1DC;
     padding-top: 20px;
     color: #5c2233;
-    padding: 0;
 }
-
-
-/* h2{
-    display: inline-block;
-} */
- /* #contact {
-    float: right;
-    margin-right: 50px;
-}
-
-#shop {
-    float: left;
-    margin-left: 50px;
-} 
-
-#search {
-    padding-left: 270px ;
-}  */
 
 .header{
     display: flex;
