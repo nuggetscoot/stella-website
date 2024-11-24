@@ -10,25 +10,14 @@ h1{
     background-color: #FFD1DC;
     padding-top: 20px;
     color: #5c2233;
-}
-h2-container {
-    display: flex;
-    justify-content: space-between; /* Distributes even spacing */
-    align-items: center; /* Aligns items vertically if needed */
-    text-align: center; /* Ensures the text inside h2 is centered */
-    margin: 0 auto; /* Centers the entire container */
+    padding: 0;
 }
 
-h2 {
-    margin: 0; /* Removes default margins */
-    padding: 0; /* Removes extra padding */
-}
 
 /* h2{
     display: inline-block;
-    justify-content: space-between;
 } */
-#contact {
+ /* #contact {
     float: right;
     margin-right: 50px;
 }
@@ -36,6 +25,17 @@ h2 {
 #shop {
     float: left;
     margin-left: 50px;
+} 
+
+#search {
+    padding-left: 270px ;
+}  */
+
+.header{
+    display: flex;
+    justify-content:space-between;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
 
